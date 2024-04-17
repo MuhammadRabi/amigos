@@ -1,16 +1,17 @@
 import Image from "next/image"
 import React from "react"
+import FeaturedText from "./FeaturedText"
 
 const Intro = () => {
   return (
     <section className="flex flex-col items-center gap-16 bg-zinc-200/40 section-wrapper xl:flex-row">
       <div className="content space-y-4 flex-1">
-        <p className="font-semibold">
+        <FeaturedText>
           Amigos Venture Capital is a boutique investment firm that specializes
           in seed capital for the telecom sector. We combine industry expertise
           with passion and personal networks to support the entrepreneurs we
           partner with.
-        </p>
+        </FeaturedText>
         <p>
           Headquartered in Dubai, Stockholm and Lusaka, we are supporting telcos
           and fin-tech worldwide. The founders and partners have a long

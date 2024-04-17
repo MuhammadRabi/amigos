@@ -5,7 +5,11 @@ type HeadlineProps = {
 }
 
 const SectionHead = ({ headline }: HeadlineProps) => {
-  return <h2 className="font-bold text-3xl capitalize">{headline}</h2>
+  return (
+    <h2 className="font-bold text-3xl capitalize mb-4 max-xl:text-center">
+      {headline}
+    </h2>
+  )
 }
 
 export default SectionHead

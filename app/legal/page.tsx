@@ -1,3 +1,4 @@
+import FeaturedText from "@/components/FeaturedText"
 import SectionHead from "@/components/SectionHead"
 
 export default function Legal() {
@@ -5,12 +6,12 @@ export default function Legal() {
     <section className="section-wrapper">
       <SectionHead headline="legal disclaimer" />
       <div className="content space-y-4">
-        <article className="mt-4 font-medium text-xl">
+        <FeaturedText>
           The details expressed in this website and accompanying documents or
           transmissions are meant for illustrative or information purposes only
           and are not intended as a solicitation for funds or a recommendation
-          to trade or otherwise the giving of advice. 
-        </article>
+          to trade or otherwise the giving of advice.
+        </FeaturedText>
         <p className="">
           No representations or warranties are given or implied that the
           information contained in this website is complete or accurate or

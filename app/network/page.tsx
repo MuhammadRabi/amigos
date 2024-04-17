@@ -1,18 +1,19 @@
+import FeaturedText from "@/components/FeaturedText"
 import SectionHead from "@/components/SectionHead"
 import { networks } from "@/constants"
 import Image from "next/image"
 
 export default function network() {
   return (
-    <section className="min-h-[50vh] section-wrapper">
-      <div className="part-one flex flex-col justify-between items-center xl:flex-row">
+    <section className="section-wrapper space-y-16">
+      <div className="flex flex-col justify-between items-center gap-16 xl:flex-row">
         <div className="flex-1">
           <SectionHead headline={"network"} />
           <div className="content">
-            <article className="text-xl font-medium py-3 mb-2">
+            <FeaturedText>
               Amigos Venture Capital is striving to create a community that
               helps entrepreneurs to thrive on their journey.
-            </article>
+            </FeaturedText>
             <p>
               As part of our investment philosophy – Value and Vision Beyond
               Capital – we want to help the entrepreneur to meet the best
@@ -27,14 +28,17 @@ export default function network() {
             </p>
           </div>
         </div>
-        <Image
-          src="/network/network.png"
-          width={270}
-          height={320}
-          alt={"network-pic"}
-          className="object-cover flex-1"
-        />
+        <div className="flex-1">
+          <Image
+            src="/network/network.png"
+            width={350}
+            height={320}
+            alt={"network-pic"}
+            className="object-contain mx-auto"
+          />
+        </div>
       </div>
+      <hr />
       <div className="part-two grid grid-cols-1 gap-24 xl:grid-cols-3">
         {networks.map((net) => (
           <article key={net.id} className="max-w-sm mx-auto space-y-4">
