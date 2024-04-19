@@ -1,7 +1,6 @@
 import Image from "next/image"
 import React from "react"
 import FeaturedText from "./FeaturedText"
-import { motion } from "framer-motion"
 const Intro = () => {
   return (
     <section className="flex flex-col items-center gap-16 bg-zinc-200/40 section-wrapper xl:flex-row">
