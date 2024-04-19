@@ -35,12 +35,7 @@ const ContactForm = () => {
     >
       <div className="w-full max-xl:max-w-md xl:w-1/2 max-xl:mx-auto">
         <Label htmlFor="company">Company</Label>
-        <Input
-          {...register("company")}
-          type="company"
-          id="company"
-          placeholder="Company"
-        />
+        <Input {...register("company")} id="company" placeholder="Company" />
         {errors.company?.message && (
           <p className="mt-1 text-red-500 font-semibold capitalize text-right">
             {errors.company?.message}
@@ -50,12 +45,7 @@ const ContactForm = () => {
       <div className="grid grid-cols-1 xl:grid-cols-2 gap-8">
         <div className="w-full max-xl:max-w-md max-xl:mx-auto">
           <Label htmlFor="name">Name</Label>
-          <Input
-            {...register("name")}
-            type="name"
-            id="name"
-            placeholder="Name"
-          />
+          <Input {...register("name")} id="name" placeholder="Name" />
           {errors.name?.message && (
             <p className="mt-1 text-red-500 font-semibold capitalize text-right">
               {errors.name?.message}
@@ -64,12 +54,7 @@ const ContactForm = () => {
         </div>
         <div className="w-full max-xl:max-w-md max-xl:mx-auto">
           <Label htmlFor="email">Email</Label>
-          <Input
-            {...register("email")}
-            type="email"
-            id="email"
-            placeholder="Email"
-          />
+          <Input {...register("email")} id="email" placeholder="Email" />
           {errors.email?.message && (
             <p className="mt-1 text-red-500 font-semibold capitalize text-right">
               {errors.email?.message}

@@ -2,7 +2,7 @@ import React from "react"
 
 const Hero = () => {
   return (
-    <section className="bg-zinc-700 text-white py-16 section-wrapper h-[648px] flex items-center justify-center flex-col">
+    <section className="bg-zinc-700 text-white py-16 section-wrapper h-screen flex items-center justify-center flex-col">
       <h1 className="text-6xl font-bold text-center mb-6">
         Value and Vision Beyond Capital
       </h1>
@@ -15,4 +15,3 @@ const Hero = () => {
 }
 
 export default Hero
-

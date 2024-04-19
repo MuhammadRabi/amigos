@@ -76,7 +76,7 @@
   }
 
   .section-wrapper {
-    @apply px-6 md:px-36 lg:px-60 xl:px-48 py-16
+    @apply px-6 md:px-36 lg:px-60 xl:px-48 pb-12 pt-36
   }
 
   p {
@@ -96,17 +96,20 @@
     transition: 300ms ease-in-out;
   }
 
+  .nav_link,.mobile_nav{
+    text-transform: uppercase;
+  }
     .nav_link:hover:before,
     .nav_link.active:before{
       width:100%;
     }
-         .nav_link.active{
-          font-weight: bold;
-         }
+  .nav_link.active{
+    font-weight: bold;
+  }
 
 
-         .mobile_nav.active {
-          color:white;
-          font-weight: bold;
+  .mobile_nav.active {
+    color:white;
+    font-weight: bold;
 
-         }
+  }

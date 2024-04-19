@@ -16,9 +16,15 @@ export default function Header() {
   const path = usePathname()
   const [open, setOpen] = useState(false)
   return (
-    <header className="bg-ivory py-16 flex justify-between items-center gap-32 xl:gap-8 section-wrapper mb-2 shadow-lg">
+    <header className="fixed z-50 top-0 w-full px-6 md:px-36 lg:px-60 xl:px-48 py-4 bg-ivory flex justify-between items-center gap-32 xl:gap-8 mb-2 shadow-lg">
       <Link href={"/"}>
-        <Image src="/logo.png" width={200} height={71} alt={"logo"} />
+        <Image
+          src="/logo.png"
+          width={200}
+          height={71}
+          alt={"logo"}
+          className="object-cover"
+        />
       </Link>
       {/* Mobile nav */}
       <Sheet open={open} onOpenChange={setOpen}>

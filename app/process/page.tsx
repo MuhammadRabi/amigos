@@ -3,7 +3,7 @@ import SectionHead from "@/components/SectionHead"
 
 export default function processPage() {
   return (
-    <section className="section-wrapper bg-white ">
+    <section className="section-wrapper bg-white">
       <main className="w-full md:w-5/6 xl:w-3/4">
         <SectionHead
           headline={"Our Investment Process: From Contact to Exit"}

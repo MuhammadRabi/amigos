@@ -1,6 +1,5 @@
 import Amigos from "@/components/amigos/Amigos"
 import EventCalender from "@/components/events/EventCalender"
-import Feature from "@/components/features/Feature"
 import FeaturesWrapper from "@/components/features/FeaturesWrapper"
 import Hero from "@/components/Hero"
 import Intro from "@/components/Intro"
