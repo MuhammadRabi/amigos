@@ -5,7 +5,7 @@ import Image from "next/image"
 
 export default function network() {
   return (
-    <section className="section-wrapper space-y-16">
+    <section className="container space-y-16">
       <div className="flex flex-col justify-between items-center gap-16 xl:flex-row">
         <div className="flex-1">
           <SectionHead headline={"network"} />

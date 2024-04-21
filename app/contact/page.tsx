@@ -3,10 +3,11 @@ import SectionHead from "@/components/SectionHead"
 import Offices from "@/components/contact/Offices"
 import Image from "next/image"
 import FeaturedText from "@/components/FeaturedText"
+import contactHero from "@/public/contact-hero.webp"
 
 export default function contactPage() {
   return (
-    <section className="section-wrapper">
+    <section className="container">
       <div className="flex flex-col gap-16 xl:flex-row">
         <div>
           <SectionHead headline={"reach out to us"} />
@@ -23,7 +24,7 @@ export default function contactPage() {
           </p>
         </div>
         <Image
-          src="https://placehold.co/500x320/3c3c3c/FFFFFF/png"
+          src={contactHero}
           width={500}
           height={320}
           alt={"hero-image"}

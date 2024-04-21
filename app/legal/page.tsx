@@ -3,7 +3,7 @@ import FeaturedText from "@/components/FeaturedText"
 import SectionHead from "@/components/SectionHead"
 export default function Legal() {
   return (
-    <section className="section-wrapper min-h-[80vh]">
+    <section className="container min-h-[80vh]">
       <SectionHead headline="legal disclaimer" />
       <div className="content space-y-4">
         <FeaturedText>

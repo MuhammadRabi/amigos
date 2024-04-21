@@ -2,10 +2,10 @@ import FeaturedText from "@/components/FeaturedText"
 import SectionHead from "@/components/SectionHead"
 import Image from "next/image"
 import Link from "next/link"
-
+import hands from "@/public/hands.webp"
 export default function enterp() {
   return (
-    <section className="section-wrapper space-y-8">
+    <section className="container space-y-8">
       <div className="flex flex-col gap-16 justify-between items-center xl:flex-row mb-12">
         <div className="flex-1">
           <SectionHead headline={"Welcome, Entrepreneurs"} />
@@ -32,7 +32,7 @@ export default function enterp() {
         </div>
         <div className="flex-1">
           <Image
-            src="https://placehold.co/480x320/ccc/FFFFFF/png"
+            src={hands}
             width={480}
             height={320}
             alt={"network-pic"}
