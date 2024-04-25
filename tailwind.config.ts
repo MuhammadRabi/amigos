@@ -16,7 +16,7 @@ const config = {
         DEFAULT: "1.5rem",
         md: "9rem",
         lg: "12rem",
-        xl: "15rem",
+        // xl: "15rem",
       },
       // screens: {
       //   "2xl": "1400px",

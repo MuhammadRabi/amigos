@@ -29,7 +29,7 @@ export default function Header() {
         </Link>
         {/* Mobile nav */}
         <Sheet open={open} onOpenChange={setOpen}>
-          <SheetTrigger className="xl:hidden">
+          <SheetTrigger className="xl:hidden" title="menu-trigger">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"

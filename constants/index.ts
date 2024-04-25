@@ -1,18 +1,18 @@
 export const features = [
   {
-    image: "/icon 01.png",
+    image: "/icon-01.png",
     title: "Talco is our Backyard",
     content:
       "We specialize in supporting telcos and fin-techs in adjacent areas, particularly MVNOs and the related ecosystem. Our network of expertise support with hands-on industry expertise and international best-practise. We support our investments in a broad range of areas from MNO negotiations to compliance.  Our team and close network has >70 years of experience in Telco and Fintech.  ",
   },
   {
-    image: "/icon 02.png",
+    image: "/icon-02.png",
     title: "Early stage investments",
     content:
       "We focus our investment on seed and early-stage investments. Our target is to work closely with entrepreneurs from an early stage to enable support through-out the full journey. We believe that an early support can leverage growth and de-risk our mutual investment.   We believe that promising ideas should be supported. ",
   },
   {
-    image: "/icon 03.png",
+    image: "/icon-03.png",
     title: "We are in this together",
     content:
       "We believe that a successful partnership is the foundation for a successful investment. We focus our investments on the entrepreneurs who can lead and grow the business with passion and vision.  Our role is to support these entrepreneurs beyond money.  Our team focus on building the business together with you. ",

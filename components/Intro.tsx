@@ -31,7 +31,7 @@ const Intro = () => {
           width={480}
           height={380}
           alt={"intro"}
-          className="flex-1 object-cover"
+          className="flex-1 grow-0 object-cover"
         />
       </div>
     </section>

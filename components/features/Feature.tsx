@@ -17,7 +17,7 @@ const Feature = ({ image, title, content }: FeatureProps) => {
         alt={title}
         className="mx-auto"
       />
-      <h3 className="my-6 text-center font-bold">{title} </h3>
+      <h2 className="my-6 text-center font-bold">{title} </h2>
       <p className="text-sm leading-5 text-center xl:text-left">{content}</p>
     </article>
   )
